@@ -19,12 +19,14 @@
   font-family: 'Yellowtail', cursive;;
   font-size: 38px;
   width: 100%;
+  color: #313131;
 }
 
 .masthead__logo--best {
   font-family: 'Abel', sans-serif;
   font-size: 11px;
   text-transform: uppercase;
+  color: #313131;
 }
 
 .social-icons {

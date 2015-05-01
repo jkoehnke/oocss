@@ -1,4 +1,3 @@
-
 .title {
   font-family: 'Oswald', sans-serif;
   font-size: 36px;
@@ -12,6 +11,7 @@
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
+  color: #858585;
 }
 
 .title__subtitle--print {
@@ -37,11 +37,17 @@
 }
 
 .ingredients__recipe {
-  background: url(file:///Users/jkoehnke/Downloads/challenge/list-bg.png) no-repeat;
+  background: url(list-bg.png) no-repeat;
 }
 
 .ingredients__recipe ul {
   list-style: none;
+}
+
+.author {
+  background: url(border.png) repeat-x top;
+  display: block;
+  padding-top: 40px;
 }
 
 .author__photo {
@@ -51,20 +57,17 @@
   margin-right: 20px;
 }
 
-.author {
-  background: url(border.png) repeat-x top;
-  display: block;
-  padding-top: 40px;
-}
-
 .author__text {
   display: inline-block;
   width: 600px;
 }
 
+.author__bio {
+  color: #858585;
+}
+
 .share__recipe {
   display: inline-block;
-  padding: ;
   background-color: #bb7056;
   font-family: 'Abel';
   font-size: 1.25rem;
