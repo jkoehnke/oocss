@@ -1,0 +1,91 @@
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  color: #313131;
+}
+
+.title__subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.title__subtitle--print {
+  text-align: right;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.blog-photo {
+  width: 100%;
+  height: auto;
+}
+
+.instructions {
+  text-indent: 32px;
+  padding-top: 36px;
+}
+
+.instructions p {
+  padding-bottom: 40px;
+}
+
+.ingredients__recipe {
+  background: url(file:///Users/jkoehnke/Downloads/challenge/list-bg.png) no-repeat;
+}
+
+.ingredients__recipe ul {
+  list-style: none;
+}
+
+.author__photo {
+  float: left;
+  border-radius: 100%;
+  width: 70px;
+  margin-right: 20px;
+}
+
+.author {
+  background: url(border.png) repeat-x top;
+  display: block;
+  padding-top: 40px;
+}
+
+.author__text {
+  display: inline-block;
+  width: 600px;
+}
+
+.share__recipe {
+  display: inline-block;
+  padding: ;
+  background-color: #bb7056;
+  font-family: 'Abel';
+  font-size: 1.25rem;
+  color: white;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding: 35px 0 60px 0;
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+  color: #bbb;
+}
+
+.small-logo {
+  margin-top: -18px;
+  padding: 0 5px 0 5px;
+  border-top: 1px solid gray;
+}
